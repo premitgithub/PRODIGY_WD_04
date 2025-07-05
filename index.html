@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Prerana | Web Developer</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <h2 class="logo">Prerana Mitra</h2>
+        <ul class="nav-links">
+          <li><a href="#">Home</a></li>
+          <li><a href="#about">About Me</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="hero">
+      <div class="hero-text">
+        <h1>Hi, I'm Prerana</h1>
+        <p>
+          A Web Developer passionate about creating responsive and dynamic
+          websites.
+        </p>
+        <a href="#projects" class="btn">View Projects</a>
+        <a href="#contact" class="btn btn-outline">Contact Me</a>
+      </div>
+      <div class="hero-image">
+        <img
+          src="images/prerana passport size photo_11zon.jpg"
+          alt="Prerana's photo"
+        />
+      </div>
+    </section>
+    <section id="about" class="about-section">
+      <h2>About Me</h2>
+      <div class="about-content">
+        <div class="about-text">
+          <p>
+            Hi, I’m Prerana! I’m an engineering student with a strong passion
+            for web development. I enjoy creating dynamic and user-friendly web
+            applications and love tackling coding challenges. My focus lies in
+            front-end and full-stack development, and I’m always eager to learn
+            new technologies and build impactful digital experiences.
+          </p>
+
+          <h3>Education</h3>
+          <ul>
+            <li>
+              10th & 12th - Our Lady Queen of the Missions School, Kolkata
+            </li>
+            <li>
+              Bachelor of Technology – Institute of Engineering and Management,
+              Kolkata
+            </li>
+            <li>Expected Graduation: 4th Year</li>
+          </ul>
+
+          <h3>Skills</h3>
+          <ul class="skills">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>React</li>
+            <li>Node.js</li>
+            <li>MongoDB</li>
+            <li>SQL</li>
+            <li>Figma</li>
+            <li>Git & GitHub</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <section id="projects" class="projects-section">
+      <h2>My Projects</h2>
+      <div class="projects-grid">
+        <div class="project-card">
+          <h3>Airbnb Clone</h3>
+          <p>
+            A full-stack web app that replicates Airbnb’s core features like
+            listing, booking, and reviews.
+          </p>
+          <p>
+            <strong>Tech Stack:</strong> Node.js, Express, MongoDB, EJS, CSS
+          </p>
+        </div>
+
+        <div class="project-card">
+          <h3>Tic Tac Toe Game</h3>
+          <p>
+            A 2-player Tic Tac Toe game built using vanilla JavaScript with win
+            detection and reset features.
+          </p>
+          <p><strong>Tech Stack:</strong> HTML, CSS, JavaScript</p>
+        </div>
+      </div>
+    </section>
+    <section id="contact" class="contact-section">
+      <h2>Contact Me</h2>
+      <p>
+        I'd love to hear from you! Whether it's a project, job opportunity, or
+        just a chat.
+      </p>
+
+      <form
+        action="https://formspree.io/f/{your-id}"
+        method="POST"
+        class="contact-form"
+      >
+        <input type="text" name="name" placeholder="Your Name" required />
+        <input type="email" name="email" placeholder="Your Email" required />
+        <textarea
+          name="message"
+          rows="5"
+          placeholder="Your Message"
+          required
+        ></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+
+      <div class="socials">
+        <a href="https://github.com/yourusername" target="_blank">GitHub</a>
+        <a href="https://linkedin.com/in/yourusername" target="_blank"
+          >LinkedIn</a
+        >
+        <a href="mailto:youremail@example.com">Email</a>
+      </div>
+    </section>
+  </body>
+</html>
